@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('white_glitter.jpg');
+  font-family: 'Lobster', cursive;
+}
+
+nav{
+  background-color: pink;
+}
