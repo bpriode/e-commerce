@@ -6,7 +6,7 @@ export default class MugStore extends Component{
     let mugData = mugs.map((mug) => {
   return(
     <div key={mug.id} className="mugCard">
-      <img src={mug.image} alt=''></img>
+      <img src={mug.img} alt=''></img>
       <ul className="list-group">
         <li>Title:{mug.title}</li>
         <li>Description:{mug.description}</li>

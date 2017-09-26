@@ -6,7 +6,7 @@ export default class PosterStore extends Component{
     let shirtData = shirts.map((shirt) => {
   return(
     <div key={shirt.id} className="shirtCard">
-      <img src={shirt.image} alt=''></img>
+      <img src={shirt.img} alt=''></img>
       <ul className="list-group">
         <li>Title:{shirt.title}</li>
         <li>Description:{shirt.description}</li>
