@@ -5,8 +5,8 @@ export default class AboutUs extends Component {
 
 
     return(
-    <div className='home'>
-  
+    <div className="jumbotron">
+      <p className="lead text-center">Dolly Lovers trying to showcase our favorite artist</p>
     </div>
     )
   }

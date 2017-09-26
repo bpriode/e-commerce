@@ -1,4 +1,4 @@
-body {
+body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -8,4 +8,27 @@ body {
 
 nav{
   background-color: pink;
+}
+
+.card{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+
+}
+
+img{
+  width: 20vw;
+  align-self: center;
+}
+
+.jumbotron{
+  background-color: pink;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.jumbotron button{
+
 }

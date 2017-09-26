@@ -5,12 +5,12 @@ export default class PosterStore extends Component{
   render(){
     let posterData = posters.map((poster) => {
   return(
-    <div key={poster.id} className="mugCard">
-      <img src={poster.img} alt='no picture'></img>
+    <div key={poster.id} className="card">
+      <img src={poster.img} alt=''></img>
       <ul className="list-group">
-        <li>Title:{poster.title}</li>
-        <li>Description:{poster.description}</li>
-        <li>Price:{poster.price}</li>
+        <li className='list-group-item'>Title:{poster.title}</li>
+        <li className='list-group-item'>Description:{poster.description}</li>
+        <li className='list-group-item'>Price:{poster.price}</li>
       </ul>
     </div>
     )

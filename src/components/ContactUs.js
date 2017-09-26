@@ -5,9 +5,9 @@ export default class ContactUs extends Component {
 
 
     return(
-    <div className='home'>
-
-    </div>
+      <div className="jumbotron">
+        <p className="lead text-center">Email any Dolly-inspired items that you'd like to see featured on Dolly Do-dads to dolly-dodad@email.com</p>
+      </div>
     )
   }
 }
